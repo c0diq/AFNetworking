@@ -67,10 +67,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9A84D4871A88C1E7008EF006 /* AFNetworkingiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworkingiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A84D4871A88C1E7008EF006 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A84D48B1A88C1E7008EF006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A84D48C1A88C1E7008EF006 /* AFNetworkingiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworkingiOS.h; sourceTree = "<group>"; };
-		9A84D4A81A88C20D008EF006 /* AFNetworkingOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworkingOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A84D4A81A88C20D008EF006 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A84D4AB1A88C20D008EF006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A84D4AC1A88C20D008EF006 /* AFNetworkingOSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworkingOSX.h; sourceTree = "<group>"; };
 		9A84D4C21A88C380008EF006 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -182,8 +182,8 @@
 		9A84D4881A88C1E7008EF006 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A84D4871A88C1E7008EF006 /* AFNetworkingiOS.framework */,
-				9A84D4A81A88C20D008EF006 /* AFNetworkingOSX.framework */,
+				9A84D4871A88C1E7008EF006 /* AFNetworking.framework */,
+				9A84D4A81A88C20D008EF006 /* AFNetworking.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -424,9 +424,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9A84D4861A88C1E7008EF006 /* AFNetworkingiOS */ = {
+		9A84D4861A88C1E7008EF006 /* AFNetworking-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A84D49D1A88C1E8008EF006 /* Build configuration list for PBXNativeTarget "AFNetworkingiOS" */;
+			buildConfigurationList = 9A84D49D1A88C1E8008EF006 /* Build configuration list for PBXNativeTarget "AFNetworking-iOS" */;
 			buildPhases = (
 				9A84D4821A88C1E7008EF006 /* Sources */,
 				9A84D4831A88C1E7008EF006 /* Frameworks */,
@@ -437,14 +437,14 @@
 			);
 			dependencies = (
 			);
-			name = AFNetworkingiOS;
+			name = "AFNetworking-iOS";
 			productName = AFNetworkingLib;
-			productReference = 9A84D4871A88C1E7008EF006 /* AFNetworkingiOS.framework */;
+			productReference = 9A84D4871A88C1E7008EF006 /* AFNetworking.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9A84D4A71A88C20D008EF006 /* AFNetworkingOSX */ = {
+		9A84D4A71A88C20D008EF006 /* AFNetworking-Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A84D4BB1A88C20D008EF006 /* Build configuration list for PBXNativeTarget "AFNetworkingOSX" */;
+			buildConfigurationList = 9A84D4BB1A88C20D008EF006 /* Build configuration list for PBXNativeTarget "AFNetworking-Mac" */;
 			buildPhases = (
 				9A84D4A31A88C20D008EF006 /* Sources */,
 				9A84D4A41A88C20D008EF006 /* Frameworks */,
@@ -455,9 +455,9 @@
 			);
 			dependencies = (
 			);
-			name = AFNetworkingOSX;
+			name = "AFNetworking-Mac";
 			productName = AFNetworkingOSX;
-			productReference = 9A84D4A81A88C20D008EF006 /* AFNetworkingOSX.framework */;
+			productReference = 9A84D4A81A88C20D008EF006 /* AFNetworking.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -477,7 +477,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9A84D4811A88C1E7008EF006 /* Build configuration list for PBXProject "AFNetworkingLib" */;
+			buildConfigurationList = 9A84D4811A88C1E7008EF006 /* Build configuration list for PBXProject "AFNetworking" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -489,8 +489,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A84D4861A88C1E7008EF006 /* AFNetworkingiOS */,
-				9A84D4A71A88C20D008EF006 /* AFNetworkingOSX */,
+				9A84D4861A88C1E7008EF006 /* AFNetworking-iOS */,
+				9A84D4A71A88C20D008EF006 /* AFNetworking-Mac */,
 			);
 		};
 /* End PBXProject section */
@@ -650,7 +650,7 @@
 				INFOPLIST_FILE = AFNetworkingiOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -665,7 +665,7 @@
 				INFOPLIST_FILE = AFNetworkingiOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -687,7 +687,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -707,7 +707,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -716,7 +716,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9A84D4811A88C1E7008EF006 /* Build configuration list for PBXProject "AFNetworkingLib" */ = {
+		9A84D4811A88C1E7008EF006 /* Build configuration list for PBXProject "AFNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A84D49B1A88C1E8008EF006 /* Debug */,
@@ -725,7 +725,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A84D49D1A88C1E8008EF006 /* Build configuration list for PBXNativeTarget "AFNetworkingiOS" */ = {
+		9A84D49D1A88C1E8008EF006 /* Build configuration list for PBXNativeTarget "AFNetworking-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A84D49E1A88C1E8008EF006 /* Debug */,
@@ -734,7 +734,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A84D4BB1A88C20D008EF006 /* Build configuration list for PBXNativeTarget "AFNetworkingOSX" */ = {
+		9A84D4BB1A88C20D008EF006 /* Build configuration list for PBXNativeTarget "AFNetworking-Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A84D4BC1A88C20D008EF006 /* Debug */,
