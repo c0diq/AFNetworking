@@ -35,10 +35,8 @@
     #import "AFHTTPRequestOperation.h"
     #import "AFHTTPRequestOperationManager.h"
 
-#if TARGET_OS_IPHONE
-    #import "AFNetworkingiOS.h"
-#else
-    #import "AFNetworkingOSX"
+#if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR
+    #import "UIKit+AFNetworking.h"
 #endif
 
 #if ( ( defined(__MAC_OS_X_VERSION_MAX_ALLOWED) && __MAC_OS_X_VERSION_MAX_ALLOWED >= 1090) || \
